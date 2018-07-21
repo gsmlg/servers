@@ -3,6 +3,6 @@
 /db
 /deps
 /*.ez
-
+/times.txt
 /log
 /ssh
