@@ -1,8 +1,9 @@
 #!/bin/bash
 
-./do_all.sh tar zxf /mnt/dropbox/gsmlg.tar.gz -C /opt/gsmlg
+#dcpull && dcdn && dcup -d && docker image prune -f
 
-./do_all.sh 'PORT=10088 LC_ALL=en_US.UTF-8 /opt/gsmlg/bin/gsmlg stop'
+CMD="cd /var/www/docker-services; docker-compose pull && docker-compose down && docker-compose up -d && docker image prune -f"
 
-./do_all.sh 'PORT=10088 LC_ALL=en_US.UTF-8 /opt/gsmlg/bin/gsmlg start'
+./do_all.sh $CMD
+
 
