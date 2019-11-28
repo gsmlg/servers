@@ -1,6 +1,7 @@
 #!/bin/bash
 
-for SER in aliyun gsmlg nygsmlg sggsmlg
+#for SER in gsmlg nygsmlg sggsmlg
+for SER in 54 55 57
 do
     echo ""
     echo "[ $SER ]"

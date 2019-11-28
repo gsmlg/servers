@@ -1,0 +1,6 @@
+{
+  "registry-mirrors": [
+    "https://registry.zdns.cn",
+    "https://registry.docker-cn.com"
+  ]
+}
