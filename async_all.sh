@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for SER in bjgsmlg tkgsmlg sggsmlg
+for SER in $(cat servers.txt)
 do
     echo ""
     echo "[ $SER ]"
